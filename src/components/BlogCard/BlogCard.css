@@ -1,0 +1,82 @@
+body{
+    background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-card{
+    background-color: #fff;
+    width: 500px;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.date{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.desc{
+    font-size: 16px;
+}
+.calender-img{
+    height: 20px;
+}
+.calender{
+    display: flex;
+    align-items: center;
+}
+.pre-img{
+    height: 250px;
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.auth-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.auth-name{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.comment{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.com-img{
+    height: 25px;
+
+}
+.com-box{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.cat{
+    margin-top: 30px;
+}
+.categories{
+    border: 1px solid #1b75d0;
+    color: #1b75d0;
+    font-size: 15px;
+    height: 100px;
+    margin: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.categories:hover{
+    background-color: #1b75d0;
+    color: #fff;
+}
